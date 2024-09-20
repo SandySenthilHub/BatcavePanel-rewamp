@@ -1,0 +1,560 @@
+.container {
+    width: 100%;
+    background: #050505;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: whitesmoke;
+  }
+  .wrap {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 6% 10%;
+  }
+  .wtop{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .wtop>:nth-child(2){
+    color: #999;
+  font-family: K2D;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 275;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+  }
+  .wbottom{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+  .back{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 44%;
+  }
+  .line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .line > span {
+    color: #999;
+    font-family: K2D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+  }
+  .checkoutform {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+  }
+  .inputset {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 100%;
+  }
+  .contactinp {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #666;
+    font-family: K2D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .inputline {
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(
+      rgba(0, 122, 255, 1),
+      rgba(0, 66, 137, 1),
+      rgba(0, 25, 52, 1)
+    );
+  }
+  .checkboxdiv {
+    display: flex;
+    gap: 0.4rem;
+  }
+  .check {
+    background-color:transparent !important;
+    width: 16px !important;
+  height: 16px !important;
+  border-radius: 3px;
+  border: 1px solid #666 !important;
+  /* appearance: none; 
+  -webkit-appearance: none; 
+  -moz-appearance: none; */
+  }
+  
+  
+  
+  .shippinglabel {
+    color: #666;
+    font-family: K2D;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    letter-spacing: 0.72px;
+  }
+  .applydiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 44%;
+    justify-content: space-between;
+  }
+  .checkoutspan {
+    color: #fff;
+    font-family: K2D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  .plainline {
+    background: #999;
+    height: 1px;
+    width: 100%;
+  }
+  .gtotal {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .gtotal > span {
+    color: #fff;
+    font-family: K2D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+  }
+  .agreespan {
+    color: #999;
+    font-family: K2D;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  .spaninside {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .proceedbtn {
+    color: #fff;
+    font-family: K2D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    display: flex;
+    /* width: 460px; */
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    border: none;
+    background: linear-gradient(0deg, #007aff -0.1%, #004289 46.1%, #001934 100%);
+  }
+  
+  
+  
+  /* new input fields */
+  
+  .inputset {
+    position: relative;
+    width: 100%;
+  }
+  
+  
+  .inputset input{
+    background-color: transparent;
+    border: 0;
+    display: block;
+    width: 100%;
+    padding-bottom: 2px;
+    padding-top: 15px;
+    border-bottom:1px solid blue ;
+    color: #FFF;
+  
+  }
+  .inputset input:focus,
+  .inputset input:valid {
+    outline: 0;
+   
+  }
+  .inputset label{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    pointer-events: none;
+  
+  }
+  
+  .inputset label span {
+    display: inline-block;
+    font-size: 16px; 
+    min-width: 5px;
+    color: #666;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    font-family: k2D;
+    font-weight: 275;
+  }
+  .inputset input:focus + label span,
+  .inputset input:valid + label span {
+    color:#666666;
+    font-size: 12px;
+    transform: translateY(-20px);
+  }
+  
+  /* .char */
+  .char {
+    transition-delay: 0ms; /* Default transition delay */
+  }
+  /* new input fields  another input*/
+  
+  .applydiv {
+    position: relative;
+    width: 100%;
+  }
+  
+  
+  .applydiv input{
+    background-color: transparent;
+    border: 0;
+    display: block;
+    width: 100%;
+    padding-bottom: 2px;
+    padding-top: 15px;
+    border-bottom:1px solid blue ;
+    color: #FFF;
+  
+  }
+  .applydiv input:focus,
+  .applydiv input:valid {
+    outline: 0;
+   
+  }
+  .applydiv label{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    pointer-events: none;
+  
+  }
+  
+  .applydiv label span {
+    display: inline-block;
+    font-size: 16px; 
+    min-width: 5px;
+    color: #666;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    font-family: k2D;
+    font-weight: 275;
+  }
+  .applydiv input:focus + label span,
+  .applydiv input:valid + label span {
+    color:#666666;
+    font-size: 12px;
+    transform: translateY(-20px);
+  }
+  
+  /* .char */
+  .char {
+    transition-delay: 0ms; /* Default transition delay */
+  }
+  
+  .showImage{
+    display:inline-block;
+  }
+  .hideImage{
+    /* display: none; */
+    opacity: 0.1;
+  }
+  
+  
+  
+  
+  
+  
+  /* refund */
+  .refund {
+    display: flex;
+    flex-direction: column;
+    /* width: 700px; */
+    width: 60%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(77px);
+    padding: 2% 2%;
+    right: 0;
+    top: 0;
+    z-index: 101;
+    overflow-y: scroll;
+  }
+  .head {
+    display: flex;
+    justify-content: space-between;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .head > :nth-child(1) {
+    color: #fff;
+    font-family: K2D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+  }
+  .rcontent,.rcontent>a {
+    color: #666;
+    font-family: K2D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.84px;
+    margin-top: 0.6rem;
+  }
+  
+  .rcontent1 {
+    color: #666;
+    font-family: K2D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.84px;
+    /* margin-top: 1rem; */
+  }
+  .rhead {
+    color: #999;
+    font-family: K2D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.84px;
+    margin-top: 1.6rem;
+  }
+  
+  /* shipping */
+  
+  .shipping {
+    display: flex;
+    flex-direction: column;
+    /* width: 700px; */
+    width: 60%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(77px);
+    padding: 2% 2%;
+    right: 0;
+    top: 0;
+    overflow-y: scroll;
+    height: 100%;
+    z-index: 101;
+  }
+  .shead {
+    color: #999;
+    font-family: K2D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.84px;
+    margin-top: 1.6rem;
+    margin-bottom: 0.6rem;
+  }
+  .scontent {
+    color: #666;
+    font-family: K2D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.84px;
+    margin-top: 0.6rem;
+  }
+  .scontent1 {
+    color: #666;
+    font-family: K2D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.84px;
+    /* margin-top: 1rem; */
+  }
+  .inputset.hasContent label span{
+    color:#666666;
+    font-size: 12px;
+    transform: translateY(-20px);
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+   
+    .wrap {
+      flex-direction: column;
+      padding-top: 80px;
+      padding-bottom: 60px;
+      gap: 2rem;
+    }
+    .wbottom{
+      display: flex;
+      flex-direction: column;
+      gap: 4rem;
+    }
+    .line > span {
+      font-size: 12px;
+      letter-spacing: 0.72px;
+    }
+  
+    .left {
+      width: 100%;
+    }
+    .contactinp{
+      font-size: 12px;
+    }
+    .shippinglabel {
+      font-size: 11px;
+      text-align: left;
+    }
+    .applydiv {
+      margin-top: 0rem;
+    }
+  
+    .right {
+      width: 100%;
+    }
+    .checkoutspan {
+      font-size: 14px;
+      letter-spacing: 0.84px;
+    }
+    .gtotal > span {
+      font-size: 14px;
+      letter-spacing: 0.84px;
+    }
+  
+    .agreespan {
+      text-align: left;
+      font-size: 10px;
+    }
+    .inputset input{
+      padding-bottom: 10px;
+    }
+    .inputset label span {
+      font-size: 12px;
+    }
+    .inputset input:focus + label span,
+  .inputset input:valid + label span{
+    font-size: 10px;
+  }
+  .inputset.hasContent label span{
+    font-size: 10px;
+  
+  }
+  
+  
+  
+    /* refund */
+    .refund {
+      width: 100%;
+      top: 0;
+      position: fixed;
+      padding: 6% 6%;
+    }
+  
+    .rcontent,
+    .rcontent1,
+    .rhead {
+      font-size: 12px;
+    }
+    .rcontent,.rcontent>a{
+      margin-top: 1rem;
+    }
+  
+    /* shipping */
+    .shipping {
+      width: 100%;
+      top: 0;
+      position: fixed;
+      padding: 6% 6%;
+    }
+    .shead,
+    .scontent,
+    .scontent1 {
+      font-size: 12px;
+    }
+    .proceedbtn {
+      display: flex;
+      width: 100%;
+      height: 36px;
+      padding: 10px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      font-size:14px;
+    }
+  
+  
+  }
+  

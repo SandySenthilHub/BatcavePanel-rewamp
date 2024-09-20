@@ -1,0 +1,122 @@
+.forgotPW{
+    background-image: url('./GraphicSide(2).svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    gap: 5%;
+    flex-direction: column;
+    width: 100%;
+}
+
+.forgotPW input {
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    color: #E0E0E0;
+    width: 500px;
+    padding-bottom: 12px;
+    margin-top: 2%;
+}
+
+
+.forgotPW input:focus {
+    outline: none;
+}
+
+.forgotPW button {
+    background-color: #0287D4;
+    font-size: 16px;
+    border: none;
+    width: auto;
+    border-radius: 6px;
+    padding: 10px 15%;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 15%;
+}
+
+#email::placeholder {
+    color: #fff; 
+    opacity: 60%;
+   font-family: "Outfit"; 
+   font-size: 20px;
+  }
+
+.forgotPW input:focus,
+.forgotPW input.valid,
+.forgotPW input.active,
+.forgotPW input:-webkit-autofill:focus,
+.forgotPW input:-webkit-autofill:hover,
+.forgotPW input:-webkit-autofill,
+.forgotPW input:-webkit-autofill:active {
+    outline: 0;
+
+}
+
+
+.forgotPW input:focus,
+.forgotPW input.valid,
+.forgotPW input.active,
+.forgotPW input:-webkit-autofill:focus,
+.forgotPW input:-webkit-autofill:hover,
+.forgotPW input:-webkit-autofill,
+.forgotPW input:-webkit-autofill:active {
+    outline: 0;
+
+}
+
+.forgotPW input:focus,
+.forgotPW input.valid,
+.forgotPW input.active,
+.forgotPW input:-webkit-autofill:focus,
+.forgotPW input:-webkit-autofill:hover,
+.forgotPW input:-webkit-autofill,
+.forgotPW input:-webkit-autofill:active {
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 1000px transparent inset;
+    transition: background-color 5000s ease-in-out 0s;
+    /* color: #fff !important; */
+
+}
+
+
+input:-internal-autofill-selected {
+    background-color: transparent !important;
+    color: white !important;
+    font-family: "Outfit";
+    -webkit-box-shadow: none !important;
+}
+
+/* Additional selector for the font color */
+input:-internal-autofill-selected,
+input:-internal-autofill-selected:focus {
+    color: white !important;
+}
+
+/* For non-autofilled inputs */
+input:-webkit-autofill {
+    -webkit-text-fill-color: white !important;
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+}
+
+/* For autofilled inputs */
+input:-webkit-autofill::first-line {
+    color: white !important;
+}
+
+
+@media only screen and (max-width: 580px) {
+    .forgotPW input {
+        width: auto !important;
+        margin: 0 20px;
+    }
+}

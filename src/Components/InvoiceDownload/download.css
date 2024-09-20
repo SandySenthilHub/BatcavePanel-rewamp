@@ -1,0 +1,232 @@
+html , body, #root, .App{
+    margin: 0;
+    height: 100%;
+}
+
+#content-to-download {
+
+    width: 793px;
+    /* height: 1122px; */
+    height: 100%;
+
+}
+
+#InvoicePage {
+    color: white;
+    /* width: 1172px; */
+    background-color: black;
+    padding: 64px;
+    width: 793px;
+    margin: 0;
+    /* height: 1122px;  */
+}
+
+.InvoiceHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.InvoiceHeading div {
+    font-family: "Barlow Condensed";
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.InvoiceHeading img {
+    height: 80px;
+    width: 226px;
+}
+
+.InContainer1 {
+    /* border: 2px solid; */
+    margin-top: 20px;
+    text-align: left;
+}
+
+.InContainer1 div:first-child {
+    font-family: 'Outfit';
+    font-size: 36px;
+    margin-bottom: 38px;
+}
+
+.InContainer1 div:nth-child(2) {
+    /* margin-top: -100%; */
+    color: #0287D4;
+    font-family: 'Outfit';
+    font-size: 36px;
+    margin-bottom: 38px;
+}
+
+.InContainer1 div:nth-child(3),
+.InContainer1 div:nth-child(4),
+.InContainer1 div:nth-child(5),
+.InContainer1 div:nth-child(6) {
+    font-family: 'Outfit';
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+
+.InContainer1 div span {
+    font-weight: 200;
+
+}
+
+
+.phone {
+    margin-left: 35%;
+}
+
+.dob {
+    margin-left: 18.6%;
+
+}
+
+.endline {
+    border: 1px solid white;
+    margin: 17px 0px;
+}
+
+.endline1 {
+    border: 1px solid white;
+    margin: 36px 0px;
+}
+
+
+table {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+thead {
+    padding-bottom: 64px;
+}
+
+thead th {
+    padding: 0 0 54px 0;
+}
+
+thead th {
+    text-align: center;
+    font-size: 24px;
+    color: #0287D4;
+
+}
+
+tbody tr {
+    font-size: 20px;
+    font-weight: 200;
+
+}
+
+thead th:first-child {
+    text-align: left;
+}
+
+tbody td:first-child {
+    text-align: left;
+}
+
+
+tbody td:nth-child(4) {
+    text-align: center;
+}
+
+.Note {
+    margin-top: 16px;
+    text-align: left;
+    font-size: 24px;
+    opacity: 50%;
+    line-height: 36px;
+}
+
+.Note div:first-child {
+    margin-bottom: 2px;
+}
+.Note div:nth-child(2) {
+    margin-bottom: -52px;
+}
+
+.Membership {
+    /* margin: -10px 80px 10px 90px; */
+    margin-top: -20px;
+    color: white;
+    background-color: #0287D4;
+    margin: 0;
+
+    /* height:678px; */
+    padding: 54px;
+    width: 793px;
+
+}
+
+
+.MembershipCon div {
+    display: flex;
+    /* margin-top: -25px; */
+}
+
+.MembershipCon div span:nth-child(2) {
+    margin-left: auto;
+}
+
+.MembershipPlan,
+.batcave {
+    font-size: 32px;
+    font-family: "Barlow Condensed";
+    font-weight: 400
+}
+
+.MembershipCon>div:nth-child(2) {
+    justify-content: flex-end;
+    font-size: 16px;
+    margin-top: -4px;
+
+}
+
+.MembershipCon>div:nth-child(3) {
+    margin-top: 36px;
+    margin-bottom: 16px;
+}
+
+.MembershipCon>div:nth-child(5)>span {
+    font-size: 32px;
+    font-family: "Barlow Condensed";
+    font-weight: 200;
+    margin-top: 36px;
+}
+
+.Footer {
+    text-align: left;
+    margin-bottom: -20px;
+}
+
+.thankyou {
+    font-size: 80px;
+    font-family: "Barlow Condensed";
+    font-weight: 700;
+}
+
+.socialMedia {
+    margin-top: 36px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.socialMedia>div {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.socialMedia div:first-child {
+    margin-bottom: 37px;
+
+}
+
+.icon {
+    margin-right: 12px;
+}

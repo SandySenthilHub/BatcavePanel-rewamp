@@ -1,0 +1,63 @@
+.drawerOpen {
+    width: 240px;
+    transition: width 0.3s;
+}
+
+.drawerClose {
+    width: 60px;
+    transition: width 0.3s;
+}
+
+.listItem.active .listItemText,
+.listItem.active .listItemIcon > svg {
+    color: #ffffff; /* Change to your desired active text color */
+}
+
+.listItem {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 0.56);
+   
+}
+
+.listItemIcon {
+    min-width: 40px;
+}
+
+.listItemText {
+    display: inline-block;
+    white-space: nowrap;
+    transition: width 0.3s, opacity 0.3s;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.56);
+
+}
+
+.listItemTextOpen {
+    width: 160px;
+    opacity: 1;
+}
+
+.listItemTextClose {
+    width: 0;
+    opacity: 0;
+}
+
+.toggleButton {
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: #090B0F;
+}
+
+.drawerPaperOpen {
+    width: 240px;
+    background-color: #090B0F;
+}
+
+.drawerPaperClose {
+    width: 60px;
+    background-color: #090B0F;
+}

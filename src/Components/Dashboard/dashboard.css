@@ -1,0 +1,462 @@
+
+* {
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    -ms-overflow-style: none;
+}
+
+html {
+    scrollbar-width: none;
+}
+
+.inputset input:focus,
+.inputset input.valid,
+.inputset input.active,
+.inputset input:-webkit-autofill:focus,
+.inputset input:-webkit-autofill:hover,
+.inputset input:-webkit-autofill,
+.inputset input:-webkit-autofill:active {
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 1000px transparent inset;
+    transition: background-color 5000s ease-in-out 0s;
+    /* color: #fff !important; */
+
+}
+
+
+input:-internal-autofill-selected {
+    background-color: transparent !important;
+    color: white !important;
+    font-family: "Outfit";
+    -webkit-box-shadow: none !important;
+}
+
+/* Additional selector for the font color */
+input:-internal-autofill-selected,
+input:-internal-autofill-selected:focus {
+    color: white !important;
+}
+
+/* For non-autofilled inputs */
+input:-webkit-autofill {
+    -webkit-text-fill-color: white !important;
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+}
+
+/* For autofilled inputs */
+input:-webkit-autofill::first-line {
+    color: white !important;
+}
+
+.inputset input:focus,
+.inputset input.valid,
+.inputset input.active,
+.inputset input:-webkit-autofill:focus,
+.inputset input:-webkit-autofill:hover,
+.inputset input:-webkit-autofill,
+.inputset input:-webkit-autofill:active {
+    outline: 0;
+
+}
+
+  
+.Container {
+    background-image: url('./GraphicSide(1).svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    color: #fff;
+    display: flex;
+    padding: 10px;
+    overflow: hidden;
+ }
+
+.header {
+    height: 88px;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px 20px 80px;
+    /* z-index: 999; */
+}
+
+
+.profile {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* margin-right: 160px; */
+}
+
+.arrow {
+    height: 6px;
+    width: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.profileimg {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: calc(100% + 5px);
+    right: 0;
+    background-color: #111721;
+    width: 200px;
+    /* padding: 10px; */
+}
+
+.dropdownCon {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    /* margin-bottom: 10px;
+    margin-top: 5px; */
+}
+
+.dropdownCon img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    display: inline;
+}
+
+.dropdownCon span {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: -20px;
+
+}
+
+
+.profile div {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile div>div:first-child {
+    font-weight: bold;
+}
+
+.profile div>div:last-child {
+    font-size: 14px;
+    color: #888;
+    margin-left: 0px;
+}
+
+.body {
+    margin-top: 10%;
+    /* border: 2px solid white; */
+    width: 100%;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: left;
+    overflow:hidden ;
+
+}
+.register {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+.BodyHeading{
+   font-size: 20px;
+   /* font-family: "Barlow Condensed"; */
+}
+
+.BodyContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.Overall {
+    width: fit-content;
+    flex: 1;
+    margin-top: 24px;
+    padding: 24px;
+    margin-right: 10px;
+    border: 0.2px solid gray;
+
+}
+.Overall div{
+    font-size: 16px;
+
+}
+
+.Overall span:nth-child(3), .Overall span:nth-child(4) {
+    color: #1AABFF;
+    font-size: 20px;
+}
+
+.Overall span:nth-child(7), .Overall span:nth-child(8) {
+    color: #718D9D;
+    font-size: 14px;
+
+}
+
+.Overall span:nth-child(4), .Overall span:nth-child(8) {
+    margin-left: 12px;
+}
+
+.Branch1{
+    margin-top: 64px;
+}
+
+
+/* ChangePasswordModal.css */
+
+.modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Adjust the width as needed */
+    max-width: 400px; /* Limit the maximum width */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.center {
+    text-align: center;
+}
+
+.changePW button{
+    background-color: #0287D4;
+    font-size: 16px;
+    border: none;
+    width: auto;
+    border-radius: 6px;
+    padding: 10px 15%;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.changePW input{
+    border-bottom: 2px solid ;
+    border: none;
+    outline: none; 
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.modal-content h2{
+    margin-bottom: 50px;
+}
+
+  
+  /* .modal-content {
+    background-color: #fefefe;
+    margin: 20% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+  } */
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: -20px;
+    margin-right: -10px;
+
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+  }
+
+  /* .header .logo{
+    margin-top: 0 !important;
+} */
+  
+
+  .dashboardCountdown{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+  }
+
+  /* .dashboardCountdown  */
+  .body{
+    margin-top: 0 !important;
+  }
+
+  .dropdown{
+    margin-top: 10%;
+ }
+
+ @media only screen and (min-width: 320px) and (max-width:375px) {
+    .modal-content {
+        /* margin: 90% auto;  */
+    }
+ }
+
+ @media only screen and (min-width: 375px) and (max-width:425px) {
+    .modal-content {
+        /* margin: 80% auto;  */
+    }
+ }
+
+ @media only screen and (min-width: 425px) and (max-width:768px) {
+    .modal-content {
+        /* margin: 45% auto;  */
+    }
+ }
+
+@media only screen and (max-width: 768px) {
+    .header {
+        padding: 20px;
+    }
+
+    .profileimg {
+        width: 40px;
+        height: 40px;
+         margin-top: 10px;
+        margin-left: -15px;
+    }
+
+    .BodyContainer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Overall {
+        width: 100%;
+    }
+    .Overview{
+        margin-top: 40%;
+    }
+    .profile{
+        margin-top: -15px;
+
+    }
+    .logo{
+        margin-top: 10px;
+        margin-left: -15px;
+    }
+    .profile div>div:last-child {
+        font-size: 14px;
+        color: #888;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .header {
+        padding: 10px;
+    }
+
+    .profileimg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .BodyContainer {
+        gap: 10px;
+    }
+
+    .Overall {
+        padding: 16px;
+    }
+}
+
+@media  screen and (max-width: 320px) {
+.header{
+    padding: auto;
+}
+.header .logo img{
+    height: 18px;
+    width: 140px;
+}
+.header .logo{
+    margin-top: 0 !important;
+}
+.dropdown{
+   margin-top: 10%;
+}
+}
+
+
+
+@media  screen and (min-width: 581px) and (max-width:769px) {
+    .header{
+        padding: 20px 60px !important;
+    }
+}
+
+@media  screen and (min-width: 321px) and (max-width:581px) {
+    .header .logo{
+        margin-top: 0 !important;
+        padding: 20px 5px !important;
+
+    }
+    .header .logo img{
+        height: 18px;
+        width: 140px;
+    }
+}
+
+@media  screen and (min-width: 1441px) {
+    .modal-content {
+        /* margin: 15% auto;  */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,217 @@
+.profileContainer {
+    display: flex;
+    /* margin: 0 80px; */
+    margin-top: 20%;
+}
+
+.rightProfile img {
+    mix-blend-mode: screen;
+    width:115%;
+
+}
+
+.rightProfile{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+
+}
+
+.leftProfile {
+    width:500px;
+}
+
+.leftProfile{
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 15%;
+}
+
+.Profilename{
+    font-family: "Barlow Condensed";
+    font-size: 28px;
+    margin-bottom: 56px;
+}
+
+.profileField{
+    line-height: 370%;
+    font-family: "Outfit";
+    opacity: 60%;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profileField span:nth-child(2){
+    align-items: center;
+    display: flex;
+}
+
+.profileField .end {
+    order: 2; 
+
+}
+
+.userprofile #HomeFooter{
+    border: none;
+}
+
+.profileField img{
+margin-left: 20%;
+/* margin-right: 50%; */
+}
+
+.pointsBtn{
+
+    background-color: #1AABFF;
+    border: none;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.pointsBtn1{
+
+    background-color: #1AABFF;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+
+
+}
+.invoicebtn{
+    border: none;
+    background: rgb(0, 122, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.pageBtn{
+    border: none;
+    background: rgb(0, 122, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.pageBtnNum.disabled {
+    color: #ccc;
+    border: 1px solid #ccc;
+    cursor: not-allowed;
+}
+
+.pageBtnNum{
+    border: none;
+    background: rgb(0, 122, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    cursor: pointer;
+    /* padding: 10px 10px; */
+    height: 30px;
+    width: 30px;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 100%;
+
+}
+
+@media screen and (max-width:320px) {
+    .leftProfile{
+        width: 290px;    
+        margin-top: 15%;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:375px){
+    .leftProfile{
+        width: 320px;    
+        margin-top: 15%;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:425px){
+    .leftProfile{
+        width: 350px;    
+        margin-top: 15%;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:768px){
+    .leftProfile{
+        width: 400px;    
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .rightProfile{
+        display: none;
+    }
+
+    .profileContainer{
+        margin: 0 28px;
+    }
+ 
+    .userprofile #HomeFooter{
+        border: none;
+        margin-top: 30% !important;
+        margin-bottom: 10%;
+    }
+    .userprofile  .Footer .row {
+        margin: 15px 28px !important;
+    }
+
+    
+}
+
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+
+  
+
+    .profileContainer{
+        margin: 0 28px;
+    }
+
+    .userprofile #HomeFooter{
+        border: none;
+        margin-top: 10% !important;
+        margin-bottom: 5%;
+    }
+
+  
+    
+}
+
+@media screen and (min-width:992px) and (max-width:1214px) {
+    .userprofile  .Footer .row .col-lg-6{
+        text-align: left;
+    }
+
+    .userprofile .footerlinks nav ul li {
+        font-size: 11px !important;
+    }
+
+    .userprofile #HomeFooter .row .col-lg-6:first-child {
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (min-width:1201px) and (max-width:1326px) {
+    .userprofile #HomeFooter{
+        border: none;
+        margin-top: 10% !important;
+        margin-bottom: 5%;
+    }
+
+}

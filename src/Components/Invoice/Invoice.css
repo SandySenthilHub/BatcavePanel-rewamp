@@ -1,0 +1,340 @@
+.Container1 {
+    background-image: url('./GraphicSide(1).svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    padding: 10px;
+    overflow: hidden;
+}
+.body{
+  
+    overflow: scroll;
+
+}
+.Success {
+    width: 100%;
+   
+    margin-top: 5px;
+    align-items: flex-start;
+}
+
+.Home {
+    display: flex;
+}
+
+.Home1 {
+    text-align: left;
+    margin-left: 12px;
+}
+
+.SuccessContainer {
+  
+    height: 224px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('./GraphicSide(2).svg');
+    border-radius: 0px 0px 12.32px 12.32px;
+    width: 89.5%;
+}
+
+.SuccessContainer div {
+    text-transform: uppercase;
+}
+
+.SuccessContainer div:first-child {
+    font-family: "Barlow Condensed";
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.SuccessContainer div:nth-child(2) {
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.InvoiceHeader {
+    margin: 64px 160px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Home,
+.Download {
+    display: flex;
+    align-items: center;
+}
+
+.Download img {
+    margin-right: 10px;
+}
+
+.InvoiceContent,
+.Download1 {
+    text-align: left;
+    margin-left: 5px;
+}
+
+.InvoiceContent {
+    font-family: "Barlow Condensed";
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.InvoicePage {
+    margin: 43px 80px 10px 90px;
+    width: 1172px;
+    background-color: black;
+    padding: 64px;
+}
+
+.InvoiceHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.InvoiceHeading div {
+    font-family: "Barlow Condensed";
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.InvoiceHeading img {
+    height: 80px;
+    width: 226px;
+}
+
+.InContainer1 {
+    margin-top: 80px;
+    text-align: left;
+}
+
+.InContainer1 div:first-child {
+    font-family: 'Outfit';
+    font-size: 36px;
+    margin-bottom: 38px;
+}
+
+.InContainer1 div:nth-child(2) {
+    color: #0287D4;
+    font-family: 'Outfit';
+    font-size: 36px;
+    margin-bottom: 38px;
+}
+
+.InContainer1 div:nth-child(3),
+.InContainer1 div:nth-child(4),
+.InContainer1 div:nth-child(5),
+.InContainer1 div:nth-child(6) {
+    font-family: 'Outfit';
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+
+.InContainer1 div span {
+    font-weight: 200;
+
+}
+
+
+.phone {
+    margin-left: 55%;
+}
+
+.dob {
+    margin-left: 44.6%;
+
+}
+
+.endline {
+    border: 1px solid white;
+    margin: 67px 0px;
+}
+
+.endline1 {
+    border: 1px solid white;
+    margin: 36px 0px;
+}
+
+
+table {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+thead {
+    padding-bottom: 64px;
+}
+
+thead th {
+    padding: 0 0 54px 0;
+}
+
+thead th {
+    text-align: center;
+    font-size: 24px;
+    color: #0287D4;
+
+}
+
+tbody tr {
+    font-size: 20px;
+    font-weight: 200;
+
+}
+
+thead th:first-child {
+    text-align: left;
+}
+
+tbody td:first-child {
+    text-align: left;
+}
+
+
+tbody td:nth-child(4) {
+    text-align: center;
+}
+
+.Note {
+    margin-top: 46px;
+    text-align: left;
+    font-size: 24px;
+    opacity: 50%;
+    line-height: 36px;
+}
+
+.Note div {
+    margin-bottom: 12px;
+}
+
+.Membership {
+    margin: -10px 80px 10px 90px;
+
+    width: 1172px;
+    background-color: #0287D4;
+    padding: 54px;
+}
+
+
+.MembershipCon div {
+    display: flex;
+}
+
+.MembershipCon div span:nth-child(2) {
+    margin-left: auto;
+}
+
+.MembershipPlan,
+.batcave {
+    font-size: 32px;
+    font-family: "Barlow Condensed";
+    font-weight: 400
+}
+
+.MembershipCon>div:nth-child(2) {
+    justify-content: flex-end;
+    font-size: 16px;
+    margin-top: -4px;
+
+}
+
+.MembershipCon>div:nth-child(3) {
+    margin-top: 36px;
+    margin-bottom: 16px;
+}
+
+.MembershipCon>div:nth-child(5)>span {
+    font-size: 32px;
+    font-family: "Barlow Condensed";
+    font-weight: 200;
+    margin-top: 36px;
+}
+
+.Footer {
+    text-align: left;
+    margin-bottom: -20px;
+}
+
+.thankyou {
+    font-size: 80px;
+    font-family: "Barlow Condensed";
+    font-weight: 700;
+}
+
+.socialMedia {
+    margin-top: 36px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.socialMedia>div {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.socialMedia div:first-child {
+    margin-bottom: 37px;
+
+}
+
+.icon {
+    margin-right: 12px;
+}
+
+
+@media (max-width: 1024px) {
+    .Container1 {
+        padding: 5px;
+    }
+
+    .InvoicePage,
+    .Membership {
+        margin: 20px auto;
+        width: 800px;
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .SuccessContainer {
+        width: 60%;
+    }
+
+    .SuccessContainer div:first-child {
+        font-family: "Barlow Condensed";
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 12px;
+    }
+
+    .SuccessContainer div:nth-child(2) {
+        font-family: "Outfit";
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .InvoicePage,
+    .Membership {
+        margin: 20px;
+        width: auto;
+    }
+}
